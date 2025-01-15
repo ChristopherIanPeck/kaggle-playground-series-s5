@@ -1,5 +1,6 @@
 # Kaggle Playground Series Season 5
-Welcome to my repository for the Kaggle Playground Series Season 5! This repository will serve as a centralized hub for my work on the competitions hosted as part of this series.
+Welcome to my repository for the Kaggle Playground Series Season 5!  
+This repository will serve as a centralized hub for my work on the competitions hosted as part of this series.
 
 ## Overview
 
@@ -9,25 +10,24 @@ The Kaggle Playground Series is a monthly machine learning competition series ai
 
 ### Competition Details
 
-Description: The first competition of Season 5 offers a compelling dataset to explore and model. The task is designed to test participants' ability to build and evaluate machine learning models while maintaining an approachable level of complexity.
+**Description:**  
+The objective of this challenge is to forecast sticker sales in different countries.
 
-Start Date: January 2025
+**Start Date:** January 1st 2025  
+**End Date:** Januray 31st 2025
 
-End Date: February 2025
+**Evaluation Metric:**  
+Submissions are evaluated using the Mean Absolute Percentage Error (MAPE).
 
-Goals for S5E1
-
-Perform thorough exploratory data analysis (EDA).
-
-Experiment with a variety of machine learning models.
-
-Optimize hyperparameters and compare performance metrics.
-
-Document insights and strategies used during the competition.
+**Goals for S5E1**
+- Perform thorough exploratory data analysis (EDA).  
+- Experiment with a variety of machine learning models.  
+- Optimize hyperparameters and compare performance metrics.  
+- Document insights and strategies used during the competition.
 
 ### Future Competitions
 
-This repository will be continuously updated with additional competitions in the series as they are announced. Each competition will have its own dedicated folder, following a similar structure to ensure consistency and organization.
+This repository will be continuously updated with additional competitions in the series as they are announced.
 
 
 ## Acknowledgments
@@ -38,8 +38,8 @@ Thanks to the Kaggle team and the Kaggle community for providing these valuable 
 
 If you have any questions, suggestions, or feedback, feel free to reach out:
 
-GitHub: ChristopherIanPeck
-Portfolio: christopherianpeck.github.io
+GitHub: [ChristopherIanPeck](https://github.com/ChristopherIanPeck)  
+Portfolio: [christopherianpeck.github.io](https://christopherianpeck.github.io/)
 
 Happy modeling and good luck to everyone participating in the Kaggle Playground Series Season 5!
 
