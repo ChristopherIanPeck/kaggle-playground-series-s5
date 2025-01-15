@@ -1,1 +1,1 @@
-# kaggle_playground_series_s5
+# Kaggle Playground Series Season 5
