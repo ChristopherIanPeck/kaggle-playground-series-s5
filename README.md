@@ -7,7 +7,10 @@ This repository will serve as a centralized hub for my work on the competitions 
 The Kaggle Playground Series is a monthly machine learning competition series aimed at providing interesting and approachable datasets for the Kaggle community to practice their skills and build experience with real-world problems. The competitions are open to beginners and experts alike, making them an excellent opportunity to learn, experiment, and grow.
 
 ## Current Competition:
-[Playground Series - Season 5, Episode 1 (S5E1)](forecasting-sticker-sales-s5e1.ipynb)
+[Kaggle Playground Series - S5E1 Overview](https://www.kaggle.com/competitions/playground-series-s5e1)  
+[My Work](forecasting-sticker-sales-s5e1.ipynb)
+
+
 ### Competition Details
 
 **Description:**  
