@@ -7,26 +7,34 @@ This repository will serve as a centralized hub for my work on the competitions 
 The Kaggle Playground Series is a monthly machine learning competition series aimed at providing interesting and approachable datasets for the Kaggle community to practice their skills and build experience with real-world problems. The competitions are open to beginners and experts alike, making them an excellent opportunity to learn, experiment, and grow.
 
 ## Current Competition:
-[Kaggle Playground Series - S5E1 Overview](https://www.kaggle.com/competitions/playground-series-s5e1)  
-[My Work](forecasting-sticker-sales-s5e1.ipynb)
-
+[Kaggle Playground Series - S5E2 Overview](https://www.kaggle.com/competitions/playground-series-s5e2)  
+[My Work](backpack-prediction-challenge.ipynb)
 
 ### Competition Details
 
 **Description:**  
-The objective of this challenge is to forecast sticker sales in different countries.
+Predict the price of backpacks given various attributes.
 
-**Start Date:** January 1st 2025  
-**End Date:** Januray 31st 2025
+**Start Date:** Febuary 1st 2025  
+**End Date:** Febuary 28th 2025
 
 **Evaluation Metric:**  
-Submissions are evaluated using the Mean Absolute Percentage Error (MAPE).
+Root Mean Squared Error (RMSE)
+Submissions are scored on the root mean squared error. RMSE is defined as:
 
-**Goals for S5E1**
-- Perform thorough exploratory data analysis (EDA).  
-- Experiment with a variety of machine learning models.  
-- Optimize hyperparameters and compare performance metrics.  
-- Document insights and strategies used during the competition.
+RMSE=(1N∑i=1N(yi−yˆi)2)12
+
+where yˆi is the predicted value and yi is the original value for each instance i.
+
+## Past Competition:
+[Kaggle Playground Series - S5E1 Overview](https://www.kaggle.com/competitions/playground-series-s5e1)  
+[My Work](forecasting-sticker-sales-s5e1.ipynb)
+
+### Competition Details  
+**Description:**  
+The objective of this challenge is to forecast sticker sales in different countries.  
+**Evaluation Metric:**  
+Submissions are evaluated using the Mean Absolute Percentage Error (MAPE).
 
 ### Future Competitions
 
