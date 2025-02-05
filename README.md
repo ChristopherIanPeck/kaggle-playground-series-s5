@@ -23,10 +23,10 @@ Predict the price of backpacks given various attributes.
 Submissions are scored on the root mean squared error. RMSE is defined as:
 
 $$
-\text{RMSE} = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2}
+\textrm{RMSE} =  \left( \frac{1}{N} \sum_{i=1}^{N} (y_i - \widehat{y}_i)^2 \right)^{\frac{1}{2}}
 $$
 
-where \( \hat{y}_i \) is the predicted value and \( y_i \) is the original value for each instance \( i \).
+where \widehat{y}_i is the predicted value and \( y_i \) is the original value for each instance \( i \).
 
 
 ## Past Competition:
