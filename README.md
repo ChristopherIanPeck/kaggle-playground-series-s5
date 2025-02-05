@@ -18,13 +18,16 @@ Predict the price of backpacks given various attributes.
 **Start Date:** Febuary 1st 2025  
 **End Date:** Febuary 28th 2025
 
-**Evaluation Metric:**  
-Root Mean Squared Error (RMSE)
+## Evaluation Metric: Root Mean Squared Error (RMSE)
+
 Submissions are scored on the root mean squared error. RMSE is defined as:
 
-RMSE=(1N∑i=1N(yi−yˆi)2)12
+$$
+\text{RMSE} = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (y_i - \hat{y}_i)^2}
+$$
 
-where yˆi is the predicted value and yi is the original value for each instance i.
+where \( \hat{y}_i \) is the predicted value and \( y_i \) is the original value for each instance \( i \).
+
 
 ## Past Competition:
 [Kaggle Playground Series - S5E1 Overview](https://www.kaggle.com/competitions/playground-series-s5e1)  
