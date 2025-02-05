@@ -25,9 +25,8 @@ Submissions are scored on the root mean squared error. RMSE is defined as:
 $$
 \textrm{RMSE} =  \left( \frac{1}{N} \sum_{i=1}^{N} (y_i - \widehat{y}_i)^2 \right)^{\frac{1}{2}}
 $$
-$$
-where \( \widehat{y}_i \) is the predicted value and \( y_i \) is the original value for each instance \( i \).
-$$
+where $$\( \widehat{y}_i \)$$ is the predicted value and $$\( y_i \)$$ is the original value for each instance $$\( i \)$$.
+
 
 ## Past Competition:
 [Kaggle Playground Series - S5E1 Overview](https://www.kaggle.com/competitions/playground-series-s5e1)  
