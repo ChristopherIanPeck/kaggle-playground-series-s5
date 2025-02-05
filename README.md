@@ -26,7 +26,7 @@ $$
 \textrm{RMSE} =  \left( \frac{1}{N} \sum_{i=1}^{N} (y_i - \widehat{y}_i)^2 \right)^{\frac{1}{2}}
 $$
 
-where $$widehat{y}_i$$ is the predicted value and $$y_i$$ is the original value for each instance $$i$$.
+where $$\widehat{y}_i\$$ is the predicted value and $$y_i$$ is the original value for each instance $$i$$.
 
 
 ## Past Competition:
