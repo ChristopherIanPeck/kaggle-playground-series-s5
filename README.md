@@ -7,7 +7,7 @@ This repository will serve as a centralized hub for my work on the competitions 
 The Kaggle Playground Series is a monthly machine learning competition series aimed at providing interesting and approachable datasets for the Kaggle community to practice their skills and build experience with real-world problems. The competitions are open to beginners and experts alike, making them an excellent opportunity to learn, experiment, and grow.
 
 ## Current Competition:
-[Kaggle Playground Series - S5E2 Overview](https://www.kaggle.com/competitions/playground-series-s5e2)  
+## [Kaggle Playground Series - S5E2 Overview](https://www.kaggle.com/competitions/playground-series-s5e2)  
 [My Work](backpack-prediction-challenge.ipynb)
 
 ### Competition Details
@@ -26,18 +26,33 @@ $$
 \textrm{RMSE} =  \left( \frac{1}{N} \sum_{i=1}^{N} (y_i - \widehat{y}_i)^2 \right)^{\frac{1}{2}}
 $$
 
-where $$\widehat{y}_i\$$ is the predicted value and $$y_i$$ is the original value for each instance $$i$$.
+where:  
+$$\widehat{y}_i\$$ is the predicted value,  
+$$y_i$$ is the original value for each instance $$i$$.
 
 
 ## Past Competition:
-[Kaggle Playground Series - S5E1 Overview](https://www.kaggle.com/competitions/playground-series-s5e1)  
+## [Kaggle Playground Series - S5E1 Overview](https://www.kaggle.com/competitions/playground-series-s5e1)  
 [My Work](forecasting-sticker-sales-s5e1.ipynb)
 
 ### Competition Details  
 **Description:**  
 The objective of this challenge is to forecast sticker sales in different countries.  
-**Evaluation Metric:**  
-Submissions are evaluated using the Mean Absolute Percentage Error (MAPE).
+
+**Start Date:** January 1st 2025  
+**End Date:** January 31st 2025  
+
+## **Evaluation Metric:**  
+Submissions are evaluated using the Mean Absolute Percentage Error (MAPE).  
+
+$$
+\textrm{MAPE} = \frac{1}{N} \sum_{i=1}^{N} \left| \frac{y_i - \widehat{y}_i}{y_i} \right| \times 100
+$$
+
+where:  
+$$y_i \$$ is the actual value,  
+$$\widehat{y}_i \$$ is the predicted value,  
+$$N \$$ is the total number of observations.
 
 ### Future Competitions
 
