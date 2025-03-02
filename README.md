@@ -23,7 +23,7 @@ Predict rainfall for each day of the year.
 Submissions are evaluated on area under the ROC curve between the predicted probability and the observed target:
 
 $$
-\textrm{AUC} = \sum_{i=1}^{n} ( \textrm{FPR}_i - \textrm{FPR}_{i-1} ) \times \textrm{TPR}_i
+AUC = \sum_{i=1}^{n} ( FPR_i - FPR_{i-1} ) \times TPR_i
 $$  
 
 ---
