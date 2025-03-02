@@ -7,6 +7,27 @@ This repository will serve as a centralized hub for my work on the competitions 
 The Kaggle Playground Series is a monthly machine learning competition series aimed at providing interesting and approachable datasets for the Kaggle community to practice their skills and build experience with real-world problems. The competitions are open to beginners and experts alike, making them an excellent opportunity to learn, experiment, and grow.
 
 ## Current Competition:
+## [Kaggle Playground Series - S5E3 Overview](https://www.kaggle.com/competitions/playground-series-s5e3/data)  
+[My Work](binary-prediction-challenge.ipynb)
+
+### Competition Details
+
+**Description:**  
+Predict rainfall for each day of the year.  
+
+**Start Date:** March 1st 2025  
+**End Date:** March 31st 2025
+
+## Evaluation Metric: ROC curve
+
+Submissions are evaluated on area under the ROC curve between the predicted probability and the observed target:
+
+$$
+\textrm{AUC} = \sum_{i=1}^{n} ( \textrm{FPR}_i - \textrm{FPR}_{i-1} ) \times \textrm{TPR}_i
+$$  
+
+---
+## Past Competition:  
 ## [Kaggle Playground Series - S5E2 Overview](https://www.kaggle.com/competitions/playground-series-s5e2)  
 [My Work](backpack-prediction-challenge.ipynb)
 
@@ -28,10 +49,9 @@ $$
 
 where:  
 $$\widehat{y}_i\$$ is the predicted value,  
-$$y_i$$ is the original value for each instance $$i$$.
+$$y_i$$ is the original value for each instance $$i$$.  
 
-
-## Past Competition:
+---
 ## [Kaggle Playground Series - S5E1 Overview](https://www.kaggle.com/competitions/playground-series-s5e1)  
 [My Work](forecasting-sticker-sales-s5e1.ipynb)
 
@@ -58,7 +78,7 @@ $$N \$$ is the total number of observations.
 
 This repository will be continuously updated with additional competitions in the series as they are announced.
 
-
+---
 ## Acknowledgments
 
 Thanks to the Kaggle team and the Kaggle community for providing these valuable learning opportunities. Special mention to the organizers of the Playground Series for their efforts in curating the datasets and tasks.
