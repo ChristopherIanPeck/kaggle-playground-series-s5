@@ -20,7 +20,7 @@ Predict rainfall for each day of the year.
 
 ## Evaluation Metric: ROC curve
 
-Submissions are evaluated on area under the ROC curve between the predicted probability and the observed target:
+Submissions are evaluated on the area under the ROC curve between the predicted probability and the observed target:
 
 $$
 AUC = \sum_{i=1}^{n} ( FPR_i - FPR_{i-1} ) \times TPR_i
@@ -44,7 +44,7 @@ Predict the price of backpacks given various attributes.
 Submissions are scored on the root mean squared error. RMSE is defined as:
 
 $$
-\textrm{RMSE} =  \left( \frac{1}{N} \sum_{i=1}^{N} (y_i - \widehat{y}_i)^2 \right)^{\frac{1}{2}}
+RMSE =  \left( \frac{1}{N} \sum_{i=1}^{N} (y_i - \widehat{y}_i)^2 \right)^{\frac{1}{2}}
 $$
 
 where:  
@@ -66,7 +66,7 @@ The objective of this challenge is to forecast sticker sales in different countr
 Submissions are evaluated using the Mean Absolute Percentage Error (MAPE).  
 
 $$
-\textrm{MAPE} = \frac{1}{N} \sum_{i=1}^{N} \left| \frac{y_i - \widehat{y}_i}{y_i} \right| \times 100
+MAPE = \frac{1}{N} \sum_{i=1}^{N} \left| \frac{y_i - \widehat{y}_i}{y_i} \right| \times 100
 $$
 
 where:  
